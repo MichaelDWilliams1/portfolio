@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-
+import { Link, animateScroll as scroll } from "react-scroll";
 function Header(){
 
     return(
@@ -16,7 +16,7 @@ function Header(){
         </div>
         <div className='buttonContainer'>
             <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>resume</motion.button>
-            <motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}  className='rightButton'>projects</motion.button>
+            <Link spy={true} smooth={true} to='projectSection'><motion.button whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} className='rightButton'>projects</motion.button></Link>
         </div>
         </>
     )
