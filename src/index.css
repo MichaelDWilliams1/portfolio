@@ -13,7 +13,7 @@ body{
 }
 
 nav{
-  position: fixed;
+  position: absolute;
   display: flex;
   flex-direction: column;
 
@@ -191,11 +191,11 @@ p{
 
 .skillsContainer{
   width: 100vw;
+  background-color:  rgb(163, 170, 196);  
 }
 
 .iconContainer{
   width: 68%;
-  /* border: 2px solid yellow; */
   height: 400px;
   margin: auto;
   display: flex;
@@ -228,4 +228,10 @@ p{
 .iconFlex{
   display: flex;
   flex-direction: column;
+}
+.skillsTitle{
+  color: rgb(14, 25, 45);
+}
+.iconText{
+  color: rgb(14, 25, 45);
 }
