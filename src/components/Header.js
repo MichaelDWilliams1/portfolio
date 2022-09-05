@@ -9,7 +9,7 @@ function Header(){
             <p>Hi my name is,</p>
            <h1>Michael Williams.</h1>
             <h2>Frontend Web Developer.</h2>
-            <p>I am a Navy Verteran 🇺🇸 turned Software Engineer 💻</p>
+            <p>Navy Verteran 🇺🇸 turned Software Engineer 💻</p>
             <p>I have a passion for building web applications that</p>
             <p>make the user experience a pleasant one</p>
             <p>I love to learn, eat pizza 🍕, and drink entirely too much coffee ☕️</p>

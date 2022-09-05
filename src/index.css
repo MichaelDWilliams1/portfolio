@@ -105,7 +105,7 @@ a:hover{
 
 .projectContainer{
   width: 100vw;
-  height: 100vh;
+  height: auto;
 
 }
 
@@ -140,7 +140,7 @@ justify-content: center;
   height: 90%;
  object-fit: scale-down;
   min-width: 400px;
-  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 p{
@@ -190,18 +190,21 @@ p{
 }
 
 .skillsContainer{
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   background-color:  rgb(163, 170, 196);  
 }
 
 .iconContainer{
   width: 68%;
-  height: 400px;
+  height: 200px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  
 }
 .fa-brands{
   font-size: 100px;
@@ -231,7 +234,46 @@ p{
 }
 .skillsTitle{
   color: rgb(14, 25, 45);
+ 
+  width: 60%;
+  margin: auto;
 }
 .iconText{
   color: rgb(14, 25, 45);
+}
+
+.formContainer{
+  height: 100vh;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 30%;
+  justify-content: space-evenly;
+  color: white;
+background: rgba(255, 255, 255, 0.11);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.4px);
+-webkit-backdrop-filter: blur(2.4px);
+border: 1px solid rgba(255, 255, 255, 0.98);
+}
+
+input, textarea{
+  height: 10%;
+  width: 90%;
+  margin: auto;
+  padding: 15px; 
+}
+
+.emailTitle{
+  width: 90;
+  margin: auto;
+  font-size: 30px;
 }
