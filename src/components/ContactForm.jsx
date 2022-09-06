@@ -20,13 +20,13 @@ e.preventDefault()
     <div className='formContainer'>
     <form  onSubmit={sendEmail}>
         <h6 className='emailTitle'>Send me a message</h6>
-    {/* <label>Name</label> */}
+ 
     <input placeholder='name' type="text" name="name" />
-    {/* <label>Email</label> */}
+ 
     <input placeholder='email' type="email" name="email" />
-    {/* <label>Subject</label> */}
+
     <input placeholder='subject' type="text" name="subject" />
-    {/* <label>Message</label> */}
+  
     <textarea placeholder='message' name="message" />
     <input type="submit" value="Send Message" />
   </form>
