@@ -81,8 +81,8 @@ function Projects(){
             <div id='Three' onMouseEnter={(e)=> gifToggleOn(e)} onMouseLeave={(e)=> gifToggleOff(e)} className='projectsGrid'>
             <img id='Three' className='projectGif' src={isHovered.Three ? matchingGif : matchingScreen}  />
             </div>
-            <div className='projectsGrid'><p><h4 className='projectDescriptionTitle'>Match the math</h4>This is a simple math matching game where the user has one minute to try and matching
-                the simple math problem to the correct answer. This game was built using HTML, CSS, Javascript</p>
+            <div className='projectsGrid'><p><h4 className='projectDescriptionTitle'>Match the math</h4>This is a simple math matching game where the user has one minute to try and match
+                the math problem to the correct answer. This game was built using HTML, CSS, Javascript</p>
                 <div className='projectButtonsContainer'>
                 <motion.a href='https://github.com/MichaelDWilliams1/Simple-Math-Matching-Game' whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} className='projectButton'>Code</motion.a><motion.a href='https://unruffled-pike-faa01a.netlify.app/' whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} className='projectButton'>Website</motion.a>
                 </div></div>
