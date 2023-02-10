@@ -13,3 +13,16 @@
   background: rgb(79,192,238);
   background: linear-gradient(90deg, rgba(79,192,238,1) 0%, rgba(47,119,239,1) 50%, rgba(45,113,239,1) 100%);
 }
+
+.blink{
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink {
+  from,
+  to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
