@@ -31,12 +31,12 @@ const Navigation = () => {
   return (
     <nav className='absolute md:flex top-0 h-screen md:h-1/10 z-10 font-IBM text-2xl w-screen md:items-center md:justify-center'>
         <img onClick={handleClick} className={`h-16 z-50 absolute flex md:hidden`}src={toggleMenu ? blueBurgerMenu : burgerMenu} />
-        <div className={`${toggleMenu ? 'flex' : 'hidden'} md:flex md:bg-transparent bg-white w-full h-full md:w-11/12`}>   
-        <ul className={`flex flex-col md:flex-row md:justify-center md:items-center justify-around w-full h-full md:w-auto md:space-x-5 md:text-white text-5xl md:text-2xl`}>
-            <Scroll className='h-1/4' spy={true} smooth={true} to='skillSection'><li className='w-full h-full flex justify-center items-center shadow-sm md:shadow-none hover:bg-sky-400'>Skills</li></Scroll>
-            <li className='w-full h-1/4 flex justify-center items-center shadow-sm md:shadow-none hover:bg-sky-400'>Projects</li>
-            <li className='w-full h-1/4 flex justify-center items-center shadow-sm md:shadow-none hover:bg-sky-400'>About</li>
-            <li className='w-full h-1/4 flex justify-center items-center shadow-sm md:shadow-none hover:bg-sky-400'>Contact</li>
+        <div className={`${toggleMenu ? 'flex' : 'hidden'} md:flex md:bg-transparent bg-white-100 w-full h-full md:w-11/12 text-white-100`}>   
+        <ul className={`flex flex-col md:flex-row md:justify-center md:items-center justify-around w-full h-full md:w-auto md:space-x-5 text-sky-400 md:text-white-100 text-5xl md:text-2xl`}>
+            <Scroll className='h-1/4' spy={true} smooth={true} to='skillSection'><li className='w-full h-full flex justify-center items-center shadow-sm md:shadow-none hover:bg-sky-400 hover:text-white-100'>Skills</li></Scroll>
+            <li className='w-full h-1/4 flex justify-center items-center shadow-sm md:shadow-none  hover:bg-sky-400 hover:text-white-100'>Projects</li>
+            <li className='w-full h-1/4 flex justify-center items-center shadow-sm md:shadow-none  hover:bg-sky-400 hover:text-white-100'>About</li>
+            <li className='w-full h-1/4 flex justify-center items-center shadow-sm md:shadow-none  hover:bg-sky-400 hover:text-white-100'>Contact</li>
         </ul>
         <section className='hidden w-full md:flex justify-end items-center space-x-10'>
         <div className=''> <Link target='_blank' to='https://www.linkedin.com/in/michael-williams-43960722b/'><img alt='Linked in link' className='h-12' src={linkedin} /></Link></div>

@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className='h-screen bg-blue-500 justify-center'>
         <div className='h-full w-1000 lg:w-1000 m-auto flex flex-col items-center justify-center font-IBM border-2'>
-        <h3 className='text-5xl mt-16'>Projects</h3>
+        <h3 className='text-5xl mt-16 text-white-100'>Projects</h3>
         <div className='w-full h-full flex justify-center items-center space-x-10'>
             <div className='w-auto w-500 h-3/4 flex flex-col items-center break-words justify-center bg-white-100'>
                 <div className='w-full h-1/2'><img className='h-full' src={audiophile} /></div>
