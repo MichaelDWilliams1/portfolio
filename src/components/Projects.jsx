@@ -4,30 +4,31 @@ import country from '../assets/countryAPI.png'
 
 const Projects = () => {
   return (
-    <section className='h-screen bg-blue-500 justify-center'>
-        <div className='h-full w-1000 lg:w-1000 m-auto flex flex-col items-center justify-center font-IBM border-2'>
-        <h3 className='text-5xl mt-16 text-white-100'>Projects</h3>
-        <div className='w-full h-full flex justify-center items-center space-x-10'>
-            <div className='w-auto w-500 h-3/4 flex flex-col items-center break-words justify-center bg-white-100'>
-                <div className='w-full h-1/2'><img className='h-full' src={audiophile} /></div>
-                <div className='w-full h-1/2 flex flex-col flex-wrap justify-around items-center'>
-                    <p className='text-2xl w-96 text-center'>Audiophile E-commerce</p>
-                    <p className='w-96'>This is a fully functional E-commerce website. Users can login and out of their account, add and remove items from their cart, and make purchases.</p>
-                    <div className='flex w-96 space-x-10'>
-                        <button className='w-1/2 h-14 text-xl bg-blue-500 text-white-100'>Github</button>
-                        <button className='w-1/2 h-14 text-xl bg-blue-500 text-white-100'>Website</button>
+    <section className='h-auto lg:h-screen bg-blue-500 justify-center pb-16'>
+        <div className='h-auto lg:h-full flex flex-col items-center justify-center font-IBM'>
+        <h3 className='text-5xl mt-16 text-white-100 mb-16 lg:mb-0'>Projects</h3>
+        <div className=' md:w-700 lg:w-1000 xl:w-1200 lg:h-full flex flex-col lg:flex-row justify-center items-center space-y-10 lg:space-y-0 lg:space-x-10'>
+            <div className=' 2xsm:w-72 xsm:w-80 md:w-auto lg:h-3/4 flex flex-col items-center justify-center bg-white-100 shadow-md rounded-md'>
+                <div className='w-full h-60 md:h-1/2'><img className='h-full rounded-t-md' src={audiophile} /></div>
+                <div className='w-full h-64 md:h-60 lg:h-1/2 flex flex-col justify-evenly lg:justify-around items-center'>
+                    <p className='text-2xl w-96 text-center hidden xsm:inline'>Audiophile E-commerce</p>
+                    <p className='text-2xl w-96 text-center 2xsm:inline xsm:hidden'>Audiophile</p>
+                    <p className='pl-2 md:pl-0 md:w-4/5 lg:w-96'>This is a fully functional E-commerce website. Users can login and out of their account, add and remove items from their cart, and make purchases.</p>
+                    <div className='flex justify-around w-4/5 lg:w-96 space-x-10'>
+                        <button className='w-1/2 md:w-1/3 lg:w-1/2 h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Github</button>
+                        <button className='w-1/2 md:w-1/3 lg:w-1/2 h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Website</button>
                     </div>
                 </div>
 
             </div>
-            <div className='w-500 h-3/4 flex flex-col items-center justify-center bg-white-100'>
-            <div className='w-full h-1/2'><img className='h-full' src={country} /></div>
-                <div className='w-full h-1/2 flex flex-col flex-wrap justify-around items-center'>
+            <div className='h-3/4 2xsm:w-72 xsm:w-80 md:w-auto flex flex-col items-center justify-center bg-white-100 shadow-md rounded-md'>
+            <div className='w-full h-60 md:h-1/2'><img className='h-full rounded-t-md' src={country} /></div>
+                <div className='w-full h-64 md:h-60 lg:h-1/2 flex flex-col justify-evenly lg:justify-around items-center'>
                 <p className='text-2xl w-96 text-center'>Countries API</p>
-                    <p className='w-96'>This website allows users to search any country in the world to find out some basic information. Switch from light to darkmode seemlessly</p>
-                    <div className='flex w-96 space-x-10'>
-                        <button className='w-1/2 h-14 text-xl bg-blue-500 text-white-100'>Github</button>
-                        <button className='w-1/2 h-14 text-xl bg-blue-500 text-white-100'>Website</button>
+                    <p className='pl-2 md:pl-0 md:w-4/5  lg:w-96'>This website allows users to search any country in the world to find out some basic information. Switch from light to darkmode seemlessly</p>
+                    <div className='flex justify-around w-4/5 lg:w-96 space-x-10'>
+                        <button className='w-1/2 md:w-1/3 lg:w-1/2 h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Github</button>
+                        <button className='w-1/2 md:w-1/3 lg:w-1/2 h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Website</button>
                     </div>
                 </div>
             </div>
