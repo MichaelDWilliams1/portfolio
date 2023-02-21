@@ -34,7 +34,6 @@ const AnimateLetters = ({ letters }) => {
   // by doing this we allow our next else if statement to begin deleting letters and keeps us in the loop.
   function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
-  
   }
 
   return (
