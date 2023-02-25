@@ -1,10 +1,10 @@
 import React from 'react'
 import audiophile from '../assets/audiophile.png'
 import country from '../assets/countryAPI.png'
-
+import { Link } from "react-router-dom";
 const Projects = () => {
   return (
-    <section className='h-auto lg:h-screen bg-blue-500 justify-center pb-16'>
+    <section id='projectSection' className='h-auto lg:h-screen bg-blue-500 justify-center pb-16'>
         <div className='h-auto lg:h-full flex flex-col items-center justify-center font-IBM'>
         <h3 className='text-5xl mt-16 text-white-100 mb-16 lg:mb-0'>Projects</h3>
         <div className='md:w-700 lg:w-1000 xl:w-1200 lg:h-full flex flex-col lg:flex-row justify-center items-center space-y-10 lg:space-y-0 lg:space-x-10'>
@@ -15,8 +15,8 @@ const Projects = () => {
                     <p className='text-xl md:text-2xl w-96 text-center 2xsm:inline xsm:hidden'>Audiophile</p>
                     <p className='text-sm 2xsm:text-xs md:text-base pl-2 md:pl-0 w-11/12 md:w-4/5 lg:w-96'>This is a fully functional E-commerce website. Users can login and out of their account, add and remove items from their cart, and make purchases.</p>
                     <div className='flex justify-around w-4/5 lg:w-96 space-x-10'>
-                        <button className='w-1/2 md:w-1/3 lg:w-1/2 h-10 md:h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Github</button>
-                        <button className='w-1/2 md:w-1/3 lg:w-1/2 h-10 md:h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Website</button>
+                        <Link target='_blank' to='https://github.com/MichaelDWilliams1/audiophile' className='w-1/2 md:w-1/3 lg:w-1/2'><button className='w-full  h-10 md:h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Github</button></Link>
+                        <Link target='_blank' to='https://splendid-nougat-914594.netlify.app/' className='w-1/2 md:w-1/3 lg:w-1/2'><button className='w-full  h-10 md:h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Website</button></Link>
                     </div>
                 </div>
 
@@ -27,8 +27,8 @@ const Projects = () => {
                 <p className='text-xl md:text-2xl w-96 text-center'>Countries API</p>
                     <p className='xsm:text-sm 2xsm:text-xs md:text-base pl-2 md:pl-0 w-11/12 md:w-4/5 lg:w-96'>This website allows users to search any country in the world to find out some basic information. Switch from light to darkmode seemlessly</p>
                     <div className='flex justify-around w-4/5 lg:w-96 space-x-10'>
-                        <button className='w-1/2 md:w-1/3 lg:w-1/2 h-10 md:h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Github</button>
-                        <button className='w-1/2 md:w-1/3 lg:w-1/2 h-10 md:h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Website</button>
+                        <Link target='_blank' to='https://github.com/MichaelDWilliams1/rest-countries-api' className='w-1/2 md:w-1/3 lg:w-1/2'><button className='w-full h-10 md:h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Github</button></Link>
+                        <Link target='_blank' to='https://phenomenal-donut-0fdd1c.netlify.app/' className='w-1/2 md:w-1/3 lg:w-1/2'><button className='w-full h-10 md:h-14 text-xl bg-blue-500 text-white-100 rounded-md'>Website</button></Link>
                     </div>
                 </div>
             </div>

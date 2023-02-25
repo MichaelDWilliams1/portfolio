@@ -1,7 +1,7 @@
 import React from 'react'
-import Navigation from './components/Navigation'
-import arrowDown from './assets/arrowDown.svg'
-import AnimateLetters from './hooks/AnimateLetters'
+import Navigation from './Navigation'
+import arrowDown from '../assets/arrowDown.svg'
+import AnimateLetters from '../hooks/AnimateLetters'
 import { Link as Scroll } from "react-scroll";
 
 
