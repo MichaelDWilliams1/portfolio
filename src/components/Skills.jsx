@@ -29,7 +29,6 @@ const skills = () => {
           <li className='flex flex-col items-center justify-around'><img className='h-1/2' src={bootstrap} /><p>Bootstrap</p></li>
         </ul>
       </article>
- 
     </section>
   )
 }

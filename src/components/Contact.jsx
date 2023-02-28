@@ -5,13 +5,14 @@ import arrowUp from '../assets/arrowUp.svg'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const Contact = () => {
 const [isLoading, setIsLoading] = useState(false)
 
 const sendEmail = (e) => {
 e.preventDefault()
 
-    emailjs.sendForm('service_2a9fpxf', 'template_ltktbph', e.target, '93KL5tpAXDzsxtpnO')
+    emailjs.sendForm(`service_2a9fpxf`, 'template_ltktbph', e.target, '93KL5tpAXDzsxtpnO')
     .then((result) => {
         toast.success('Your message was successfully sent', {
             position: "top-center",
